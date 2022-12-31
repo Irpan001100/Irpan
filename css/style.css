@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e47cb859-f01d-4605-a99e-ac999b143951/dflhp1p-ba096287-0dc7-47af-a6bf-f23f08ebc657.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U0N2NiODU5LWYwMWQtNDYwNS1hOTllLWFjOTk5YjE0Mzk1MVwvZGZsaHAxcC1iYTA5NjI4Ny0wZGM3LTQ3YWYtYTZiZi1mMjNmMDhlYmM2NTcucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.IMz8tBila8SUEjjYTafqoooRIWSkZH-BUBQO-cEAS1Q);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+}
+
+/* side-bar */
+.side-bar {
+    backdrop-filter: blur(40px);
+    text-align: center;
+    width: 18%;
+    height: 120ch;
+}
+
+.logo {
+    height: 150px;
+    width: 150px;
+    margin: 40px 0 40px 0
+}
+
+/* tittle */
+h1 {
+    font-size: 24px;
+    color: #F8EDE3;
+}
+
+h3 {
+    font-size: 14px;
+    color: #F8EDE3;
+}
+
+
+/* side-bar-menu */
+.side-bar-menu {
+    margin-top: 100px;
+}
+
+li {
+    margin-top: 30px;
+}
+
+.home {
+    text-decoration: none;
+    color: #85586F;
+    background-color: #DFD3C3;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.about {
+    text-decoration: none;
+    color: #85586F;
+    background-color: #DFD3C3;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.skills {
+    text-decoration: none;
+    color: #85586F;
+    background-color: #DFD3C3;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.contact {
+    text-decoration: none;
+    color: #85586F;
+    background-color: #DFD3C3;
+    padding: 5px 14px;
+    border-radius: 5px;
+}
+
+
+/* home-page */
+.home-page {
+    width: 100%;
+    display: flex;
+}
+
+.text {
+    color: #f5ffed;
+    margin-top: 30%;
+    margin-left: 10%;
+}
+
+.tittle-home {
+    font-size: 60px;
+}
+
+.subtittle-home {
+    margin-top: 8%;
+    font-size: 25px;
+}
+
+.subsub-home {
+    margin-top: 2%;
+    margin-bottom: 10%;
+    font-size: 16px
+}
+
+.text .portfolio {
+    background: rgb(248, 237, 227);
+    padding: 5px 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    text-decoration: none;
+    font-size: 18px;
+}
